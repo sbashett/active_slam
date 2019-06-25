@@ -1,5 +1,5 @@
 # ACTIVE SLAM AND PATH PLANNING FOR ROBOT NAVIGATION
-reference paper link: (https://ieeexplore.ieee.org/document/7125079)
+reference paper link: https://ieeexplore.ieee.org/document/7125079
 
 This is a simplified implementation and improvement of the active slam application from the reference paper.
 
@@ -21,14 +21,14 @@ packages for ROS: tuertlebot3_simulations, turtlebot3_msgs, turtlebot3, gazebo_r
 6. Run the following commands each in a different terminal/console from the location ```~/catkin_ws```
 	
 	Command 1 in terminal 1:
-		'''roslaunch turtlebot3_gazebo turtlebot3_world.launch'''
+		```roslaunch turtlebot3_gazebo turtlebot3_world.launch```
 	Command 2 in terminal 2:
-		'''roslaunch active_slam active_slam.launch'''
+		```roslaunch active_slam active_slam.launch```
 	
-	NOTE : BEFORE EXECUTING COMMAND 3, we need to setup the initial approximate grid position of the bot by trail and error method.
+	**NOTE** : BEFORE EXECUTING COMMAND 3, we need to setup the initial approximate grid position of the bot by trail and error method.
 	
 	Command 3 in terminal 3:
-		'''python ./src/active_slam/scripts/global_planning.py'''
+		```python ./src/active_slam/scripts/global_planning.py```
 
 Now you should see the code running with some intermediate outputs printed on console. Visit roswiki to change the parameters mentioned in the report.
 
