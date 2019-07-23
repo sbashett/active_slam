@@ -26,7 +26,7 @@ packages for ROS: tuertlebot3_simulations, turtlebot3_msgs, turtlebot3, gazebo_r
 	* Command 2 in terminal 2:
 		```roslaunch active_slam active_slam.launch```
 	
-	**NOTE** : BEFORE EXECUTING COMMAND 3, we need to setup the initial approximate grid position of the bot by trail and error method.
+	**NOTE** : BEFORE EXECUTING COMMAND 3, we need to setup the initial approximate grid position of the bot by trial and error method. This step could have been improved but still works reasonably for small maps
 	
 	* Command 3 in terminal 3:
 		```python ./src/active_slam/scripts/global_planning.py```
